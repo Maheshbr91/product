@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: productpage
-        image: pucacr.azurecr.io/devops/productpageapplicationinpython:#{Build.BuildId}#
+        image: gcr.io/powerupcloud-production/nirmal94/product:test2
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
