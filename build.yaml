@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: productpage
-        image: gcr.io/powerupcloud-production/nirmal94/product-v1:v1
+        image: gcr.io/powerupcloud-production/nirmal94/product-v2:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
